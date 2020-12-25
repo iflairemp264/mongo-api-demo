@@ -1,7 +1,7 @@
 var BankDetail = require('../models/bankAcc.model');
 var Otp = require('../models/otp.model');
-const accountSid = 'AC0d4e18cb7dde31bdb4a1b09169469a6e';
-const authToken = 'a30ad9b8dc719773a8cb997d9d12c7a3';
+const accountSid = '**************token';
+const authToken = '********************token';
 const client = require('twilio')(accountSid, authToken);
 
 function sendOtp(reqdata) {
